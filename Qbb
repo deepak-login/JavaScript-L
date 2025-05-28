@@ -1,0 +1,9 @@
+//Create an array to store companies -> "Blomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"
+
+//bb. Remove Uber & Add Ola on its place .
+
+let arr = ["Blomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+arr.splice(2, 1, "Ola");
+
+console.log(arr);
