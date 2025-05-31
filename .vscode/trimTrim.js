@@ -1,0 +1,3 @@
+//Endig value does not includes...
+let str = "hello";
+console.log(str.slice(0, 4));
